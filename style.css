@@ -3,36 +3,64 @@
     padding: 0% 0% 0% 2%;
     margin: 0;
 }
+body {
+    background-image: url(./assets/background-image1.png);
+    background-repeat: no-repeat;
+    background-position: right;
+	bottom: 10px;
+    background-size: 60% 120%;
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
 
 .logo {
     display: flex;
     justify-content: flex-end;
 	padding: 1% 4%;
 	padding-right: 50px;
-	padding-top: 50px;
+    padding-top: 20px;
+    background-color: white;
 }
-h1,h3{
-	margin-left: 8 px;
+h1,h2{
+    margin-left: 8 px;
+    
 }
-
+h4{
+    font-style: normal;
+    font-size: 20px;
+    font-weight: 400;
+    justify-content: left;
+}
 h1 {
-    font-size: 3.5em;
-    font-weight: 600;
+    font-size: 3em;
+    font-weight: 800;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 0px;
+    padding-left: 0px;
+    background-color: white;
 }
 
-h3 {
-    font-size: 2em;
+h2{
+    font-size: 1.5em;
     color: gray;
+    padding-left: 0px;
 }
-
+#header{
+    text-align: left;
+}
+br{
+    background-color: white;
+}
 table {
     width: 55%;
     justify-content: center;
-    font-size: 1.5em;
-	padding: 5px;
+    font-size: 2em;
+	padding: 0px;
 	margin-left: 30 px;
     background-color: white;
+    height: 500px;
+    width: 900px;
+    padding-top: 10px;
 }
 
 td {
@@ -41,35 +69,28 @@ td {
     text-align: left;
 }
 
-#tr1 {
-    background-color: orangered;
+
+#tr1{
+    background-color: #f05136;
+    color: white;
     border-collapse: collapse;
-    margin: 0px;
+    margin: 2px;
     padding: 5px;
-    border: 0px solid #808080;
+    border: 10px solid #808080;
     text-align: left;
     font-size: 1.5em;
+    background-size: 100% 100%;
 }
-
-body {
-    background-image: url(/assets/background-image1.png);
-    background-repeat: no-repeat;
-    background-position: right;
-	right: 20px;
-	background-attachment: fixed;
-	background-size: 100% 100%;
-}
-
 .table-container {
     font-size: 0.5em;
 	display: flex;
-	
 }
 
 a {
-    color: blue;
+    color:blue;
     font: 15px solid;
     justify-content: left;
+    font-size: 20px;
 }
 
 p {
@@ -81,17 +102,29 @@ p {
 .footer {
     display: flex;
     flex-direction: row;
-    align-content: flex-end;
+    align-content: center;
     position: relative;
-    top: 59px;
+    top: 20px;
     margin-left: 20px;
     font-size: 18px;
     font-family: Nunito Sans;
     font-style: normal;
+}
+.footer img{
+    display: flex;
+    justify-self: center;
 }
 a{
 	text-decoration: none;
 }
 th, td {
   border-bottom: 1px solid #ddd;
+  justify-content: space-evenly;
+  font-size:20px;
+  text-align: end;
+}
+
+#status{
+    color: grey;
+    text-align: left;
 }
